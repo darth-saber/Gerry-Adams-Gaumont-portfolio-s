@@ -34,8 +34,14 @@ img {
   height: auto;
 }
 
-@media (min-width: 960px) {
+@media (max-width: 960px) {
   img {
     width: 100%;
+  }
+}
+
+@media (min-width: 960px) {
+  img {
+    height: 100%;
   }
 }
