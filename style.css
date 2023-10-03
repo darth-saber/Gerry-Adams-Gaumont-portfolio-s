@@ -40,7 +40,7 @@ img {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 320px) {
   img {
     height: 100%;
   }
