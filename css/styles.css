@@ -384,7 +384,7 @@ main {
 
 /* 3D Image Effect */
 .img-3d {
-    width: 800px;
+    width: 750px;
     height: auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
