@@ -34,7 +34,14 @@ h1 {
     font-size: 2.5em;
     margin: 0;
 }
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
 
+p {
+    margin: 20px 0;
+}
 section#home {
     text-align: center;
     padding: 50px;
@@ -469,4 +476,26 @@ footer {
         width: 50%;
         height: auto;
     }
+}
+
+/* General styles for images */
+.image-container img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .image-container img {
+        width: 80%; /* Adjust the width for smaller screens */
+        margin: 0 auto; /* Center the images */
+        display: block; /* Ensure images are block elements */
+    }
+
+/* Make iframes responsive */
+.video-item iframe {
+    width: 100%; /* Makes the iframe take the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 560px; /* Sets a maximum width for larger screens */
+}
 }
