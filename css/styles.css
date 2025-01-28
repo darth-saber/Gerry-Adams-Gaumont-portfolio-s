@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background:#003f3f ;
+    background: linear-gradient(135deg, #003f3f, #24364e);
     color: #ffffff;
 }
 
 header {
-    background: linear-gradient(135deg, #3ed0f5, #24364e);
+    background: linear-gradient(135deg, #035165, #000000);
     padding: 1.5rem 1rem;
     text-align: center;
     position: relative;
@@ -109,7 +109,7 @@ section#home button {
 section#portfolio {
     text-align: center;
     padding: 50px;
-    background-color: #003f3f;
+    background: linear-gradient(135deg, #003f3f, #24364e);
 }
 
 section#portfolio h2 {
