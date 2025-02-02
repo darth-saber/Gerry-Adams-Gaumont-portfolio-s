@@ -76,7 +76,7 @@ p {
 section#home {
     text-align: center;
     padding: 50px;
-    background: url('image/Assignment.jpg') no-repeat center center;
+    /* background: url('image/Assignment.jpg') no-repeat center center; */
     background-size: cover;
     position: relative;
     height: 50vh;
@@ -120,6 +120,10 @@ section#portfolio p {
     font-size: 1.5em;
 }
 
+.portfolio-item img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+}
 
 .button-container {
     margin-top: 10px;
@@ -135,7 +139,7 @@ section#portfolio p {
 section#contact {
     text-align: center;
     padding: 50px;
-    background: url('background.jpg') no-repeat center center;
+    /* background: url('background.jpg') no-repeat center center; */
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -211,18 +215,15 @@ form input[type="submit"]:hover {
 
 
 /* Background images for each portfolio link */
-.graphic-design {
-    background-image: url('images/graphic-design.jpg');
-}
-
-.motion-design {
-    background-image: url('images/motion-design.jpg');
-}
-
-.video-editing {
-    background-image: url('images/video-editing.jpg');
-}
-
+/* .graphic-design { */
+/*     background-image: url('images/graphic-design.jpg'); */
+/* } */
+/* .motion-design { */
+/*     background-image: url('images/motion-design.jpg'); */
+/* } */
+/* .video-editing { */
+/*     background-image: url('images/video-editing.jpg'); */
+/* } */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -430,7 +431,6 @@ main {
 
 .img-3d:hover {
     transform: perspective(1000px) rotateY(15deg) rotateX(10deg);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 
 /* 3D Button Effect */
