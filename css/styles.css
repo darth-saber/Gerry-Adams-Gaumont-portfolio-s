@@ -430,7 +430,12 @@ main {
 }
 
 .img-3d:hover {
-    transform: perspective(1000px) rotateY(15deg) rotateX(10deg);
+    transform: perspective(900px) rotateY(15deg) rotateX(10deg);
+}
+
+/* Smaller 3D image for home section */
+section#home img.img-3d {
+    width: 300px;
 }
 
 /* 3D Button Effect */
